@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float gallons = 20, MPGH = 28.9, MPGT = 23.5, milesH = gallons * MPGH, milesT = gallons * MPGT;
+
+   cout << "The car will make it " << milesH << " miles on the highway before it runs out of gas.\n";
+   cout << "The car will make it " << milesT << " miles in the town before it runs out of gas.";
+    return 0;
+}
